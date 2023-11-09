@@ -86,10 +86,6 @@ h2{
     top: 9%;
 }
 @media (max-width:600px) {
-    img{
-        width: 376px;
-        margin: 0vw;
-    }
     p{
         color: red;
         text-align: center;
