@@ -6,6 +6,8 @@ body{
 img{
     scale: .83;
     height: 35vw;
+    margin-left: 15%;
+    margin-right: 10%;
 }
 
 p{
@@ -85,7 +87,9 @@ h2{
 }
 @media (max-width:600px) {
     img{
-        width: 70%;
+        width: 376px;
+        margin: 0;
+    }
     p{
         color: red;
         text-align: center;
