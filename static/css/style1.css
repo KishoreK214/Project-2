@@ -88,8 +88,7 @@ h2{
 @media (max-width:600px) {
     img{
         width: 376px;
-        margin-left: 17.5%;
-        margin-right: 10%;
+        margin: 0;
     }
     p{
         color: red;
