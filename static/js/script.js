@@ -13,3 +13,11 @@ function fun1(){
     var sgpa= total/20;
     document.getElementById("result").innerHTML=sgpa;
 }
+function fun2(){
+    var sem1=document.getElementById("S1").value;
+    var sem2=document.getElementById("S2").value;
+    var tot = parseFloat(sem1) + parseFloat(sem2);
+
+    var cgpa= tot/2;
+    document.getElementById("result").innerHTML=cgpa;
+}

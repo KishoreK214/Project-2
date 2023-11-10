@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+    background-color: #1E1944;
+
+}
+.home{
+    position: relative;
+}
+.sub{
+    color:#e02bdd ;
+    text-align: center;
+    font-size: 8vw;
+}
+.btn{
+    display: flex;
+    gap: 8vw;
+    justify-content: space-around;
+    align-items: center;
+
+}
+button{
+    font-size: 3vw;
+    background-color: #F6DB38;
+    width: 30vw;
+    height: 20vw;
+    border-radius: 2vw;
+    border: none;
+    cursor: pointer;
+    transform: translate(.15s);
+}
+button:hover{
+    background-color: #f3d426;
+}
+span{
+    opacity: .83;
+}
+

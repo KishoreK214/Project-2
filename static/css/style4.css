@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    position: relative; 
+    background-color: #1E1944;
+}
+p{
+    text-align: center;
+    font-size: 5vw;
+    color: #e02bdd;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+input{
+    font-size: 3vw;
+    background-color: yellow;
+    width: 30vw;
+    height: 5vw;
+    border-radius: 1.5vw;
+    border: none;
+    transform: translate(.15s);
+}
+input:hover{
+    background-color: rgb(234, 234, 0);
+
+}
+input::placeholder{
+    text-align: center;
+    font-size: 2.5vw;
+    color: rgb(0, 0, 0);
+    opacity: .6;
+
+}
+#output{
+    margin-top: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40vw;
+    position: relative;
+    width: 90vw;
+    height: 15vw;
+}
+#display{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+span{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+h2{
+    position: absolute;
+    left: 38%;
+    top: 7%;
+}
+button{
+    font-size: 2.5vw;
+    background-color: rgb(249, 71, 7);
+    width: 30vw;
+    height: 7vw;
+    border: none;
+    border-radius: 2vw;
+    font-weight: 650;
+    transform: translate(.15s);
+}
+button:hover{
+    background-color: rgb(254, 112, 60);
+}
+@media (max-width:600px) {
+    p{
+        margin-bottom: 12vw;
+    }
+    
+}
