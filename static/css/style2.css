@@ -1,13 +1,14 @@
 body {
     width: 100%;
-    background-color: #1E1944;
+    background: linear-gradient(90deg,#5b146f, #ff009c );
 
 }
 .home{
     position: relative;
 }
 .sub{
-    color:#e02bdd ;
+    color: #ff0000;
+    font-weight: 600;
     text-align: center;
     font-size: 8vw;
 }
@@ -20,18 +21,17 @@ body {
 }
 button{
     font-size: 3vw;
-    background-color: #F6DB38;
+    background: linear-gradient(yellow,rgb(255, 166, 0));
     width: 30vw;
     height: 20vw;
     border-radius: 2vw;
     border: none;
     cursor: pointer;
-    transform: translate(.15s);
+    transition: 0.4s all;
 }
 button:hover{
-    background-color: #f3d426;
+    background: linear-gradient(orange , rgb(252, 58, 97));
 }
 span{
     opacity: .83;
 }
-
